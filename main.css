@@ -1,0 +1,29 @@
+body {
+	background-image: url('imagebg.jpg');
+	border-width: medium;
+	background-size: cover;
+}
+
+table {
+	color: #CD5C5C;
+	border: 2px solid;
+}
+
+button {
+	color: #BC8F8F;
+	margin: 30px 40px 20px 100px;
+}
+
+h4,form {
+	color: #9932CC;
+	padding: 25px 70px 0px 55px;
+}
+
+div {
+    border-radius: 5px;
+    padding: 0px 480px 0px 560px;
+}
+
+input[type=text], input[type=number] {
+    padding: 5px 30px;
+}

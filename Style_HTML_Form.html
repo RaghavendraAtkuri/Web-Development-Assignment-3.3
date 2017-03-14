@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML form with styles </title>
+<link rel="stylesheet" href="main.css">
+</head>
+
+
+<body class="form_details">
+
+  <div class= "form-step1">
+	
+	<form>
+	
+		<h4> Step 1: Your details </h4>
+		
+		<table border="3">
+			<tr>
+				<td> <label for="name"> Name </label> &nbsp;&nbsp;&nbsp; <input type="text" name="FLName" placeholder="Enter first and last name" /> </td>
+			</tr>
+			<tr>
+				<td> <label for="email"> Email </label> &nbsp;&nbsp;&nbsp; <input type="text" name="email" placeholder="email@email.com" /> </td>
+			</tr>
+			<tr>
+				<td> <label for="phone"> Phone </label> &nbsp;&nbsp;&nbsp; <input type="number" name="phonenum" placeholder="91-XXXXXXXXXX" /> </td>
+			</tr>
+		</table>
+		
+		<h4> Step 2: Delivery Address </h4>
+		
+		<table border="3">
+			<tr>
+				<td> <label for="address"> Address </label> &nbsp;&nbsp; <textarea rows="3" cols="28"> </textarea> </td>
+			</tr>
+			<tr>
+				<td> <label for="postcode"> Postcode </label> &nbsp; <input type="number" name="postcode" placeholder="e.g. 500114" /> </td>
+			</tr>
+			<tr>
+				<td> <label for="country"> Country </label> &nbsp;&nbsp; <input type="text" name="country" placeholder="e.g.India" /> </td>
+			</tr>
+		</table>
+		
+		<h4> Step 3: Card Details </h4>
+		
+		<table border="3">
+			<tr>
+				<td> <label for="fname"> Card type </label>
+						<input type="radio" name="cardtype" value="visa"> VISA </input>
+						<input type="radio" name="cardtype" value="amex"> Amex </input>
+						<input type="radio" name="cardtype" value="master"> Mastercard </input> </td>
+			</tr>
+			<tr>
+				<td> <label for="cnumber"> Card Number </label> &nbsp;&nbsp;&nbsp;<input type="number" name="cardnum" placeholder="XXXX XXXX XXXX" /> </td>
+			</tr>
+			<tr>
+				<td> <label for="scode"> Security Code </label> &nbsp; <input type="number" name="secucode" placeholder="XXXX" /> </td>
+			</tr>
+			<tr>
+				<td> <label for="namecard"> Name on card </label> &nbsp; <input type="text" name="cardname" placeholder="Exact name on the card" /> </td>
+			</tr>
+		</table>
+		
+	<button type="submit" value="buyIt">BUY IT !</button>
+	
+	</form>
+	
+  </div>
+
+</body>
+</html>
